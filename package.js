@@ -1,8 +1,8 @@
 Package.describe({
-  name: "robertlowe:autoform-pickadate",
+  name: "thewickerman:autoform-pickadate",
   version: "0.1.2",
   summary: "pickadate.js for autoform",
-  git: "https://github.com/robertlowe/autoform-pickadate"
+  git: "git@github.com:rishabhsaxena/autoform-pickadate.git"
 });
 
 Package.onUse(function (api, where) {

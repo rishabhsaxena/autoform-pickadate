@@ -79,6 +79,8 @@ Template.afPickadate.rendered = ->
       # so convert UTC Date object to local
       endDate = utcToLocal(data.max)
       $picker.set 'max', startDate
+    if data.atts.pickadateOptions.disable
+      $picker.set 'disable', data.atts.pickadateOptions.disable
 
 
 Template.afPickadate.destroyed = ->
